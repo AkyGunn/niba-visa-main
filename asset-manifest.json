@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/niba-visa-main/static/css/main.b7c21f8f.css",
-    "main.js": "/niba-visa-main/static/js/main.aeaa2bf8.js",
+    "main.css": "/niba-visa-main/static/css/main.06f84127.css",
+    "main.js": "/niba-visa-main/static/js/main.00c3227a.js",
     "static/js/453.e89f1881.chunk.js": "/niba-visa-main/static/js/453.e89f1881.chunk.js",
     "static/media/whatsapp-logo.png": "/niba-visa-main/static/media/whatsapp-logo.b5305e92e4f6f1e4b0cb.png",
     "index.html": "/niba-visa-main/index.html",
-    "main.b7c21f8f.css.map": "/niba-visa-main/static/css/main.b7c21f8f.css.map",
-    "main.aeaa2bf8.js.map": "/niba-visa-main/static/js/main.aeaa2bf8.js.map",
+    "main.06f84127.css.map": "/niba-visa-main/static/css/main.06f84127.css.map",
+    "main.00c3227a.js.map": "/niba-visa-main/static/js/main.00c3227a.js.map",
     "453.e89f1881.chunk.js.map": "/niba-visa-main/static/js/453.e89f1881.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7c21f8f.css",
-    "static/js/main.aeaa2bf8.js"
+    "static/css/main.06f84127.css",
+    "static/js/main.00c3227a.js"
   ]
 }
