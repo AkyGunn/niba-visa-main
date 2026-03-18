@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/niba-visa-main/static/css/main.06f84127.css",
-    "main.js": "/niba-visa-main/static/js/main.00c3227a.js",
+    "main.css": "/niba-visa-main/static/css/main.67937cb3.css",
+    "main.js": "/niba-visa-main/static/js/main.167f4a13.js",
     "static/js/453.e89f1881.chunk.js": "/niba-visa-main/static/js/453.e89f1881.chunk.js",
+    "static/media/profile-photo.png": "/niba-visa-main/static/media/profile-photo.7361c104f04abb15c595.png",
     "static/media/whatsapp-logo.png": "/niba-visa-main/static/media/whatsapp-logo.b5305e92e4f6f1e4b0cb.png",
     "index.html": "/niba-visa-main/index.html",
-    "main.06f84127.css.map": "/niba-visa-main/static/css/main.06f84127.css.map",
-    "main.00c3227a.js.map": "/niba-visa-main/static/js/main.00c3227a.js.map",
+    "main.67937cb3.css.map": "/niba-visa-main/static/css/main.67937cb3.css.map",
+    "main.167f4a13.js.map": "/niba-visa-main/static/js/main.167f4a13.js.map",
     "453.e89f1881.chunk.js.map": "/niba-visa-main/static/js/453.e89f1881.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.06f84127.css",
-    "static/js/main.00c3227a.js"
+    "static/css/main.67937cb3.css",
+    "static/js/main.167f4a13.js"
   ]
 }
