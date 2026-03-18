@@ -5,7 +5,7 @@ const Navbar = () => {
   const logoRef = useRef();
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const logotext = 'NiBa-Visa';
+  const logotext = 'NiBa-ViSa';
   const colorPalette = ['#fff'];
 
   return (
