@@ -5,7 +5,7 @@ const Navbar = () => {
   const logoRef = useRef();
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const logotext = 'NİBa Visa';
+  const logotext = 'NiBa Visa';
   const colorPalette = ['#fff'];
 
   return (
