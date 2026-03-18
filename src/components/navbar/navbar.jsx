@@ -6,7 +6,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const logotext = 'NİBa Visa';
-  const colorPalette = ['#be746e', '#e1ca73', '#72d0b5', '#53d5fb'];
+  const colorPalette = ['#fff'];
 
   return (
     <nav>
@@ -19,6 +19,7 @@ const Navbar = () => {
             {char}
           </span>
         ))}
+        <p className="logo-text" onClick={() => window.open('https://maps.google.com/?q=Klosterstr.+12,+95028+Hof')} >Klosterstr. 12 95028 Hof</p>
       </div>
 
       {/* Hamburger icon */}
@@ -33,7 +34,7 @@ const Navbar = () => {
         <li><a href="#services-container" onClick={() => setMenuOpen(false)}>Hizmetlerimiz</a></li>
         <li><a href="#medical-container" onClick={() => setMenuOpen(false)}>Sağlık Personelleri</a></li>
         <li><a href="#aboutus-container" onClick={() => setMenuOpen(false)}>Hakkımızda</a></li>
-        <li><a href="/" onClick={() => setMenuOpen(false)}>İletişim</a></li>
+        <li><a href="/" onClick={() => window.open('https://wa.me/+491724062056', '_blank')}>İletişim</a></li>
       </ul>
     </nav>
   );
