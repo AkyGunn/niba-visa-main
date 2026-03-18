@@ -25,18 +25,47 @@ const Aboutus = () => {
         </div>
         <div className="aboutus-founder">
           <Title text="Lütfiye BAKAC Kimdir?"  className="aboutus-founder-title" size='l' align='left'/>
-          <div>
+          <div className="whois-container-wrapper">
             <img src={ProfilePhoto} alt="" />
-            <p >Ben <strong>Lütfiye Bakac</strong>. <strong>NiBa-ViSa, NiBa Verwaltungsdienste ve NiBa-Lernstudio’nun</strong> kurucusuyum. 2009 yılından bu yana Almanya’da eğitim, danışmanlık ve idari süreçler alanında faaliyet gösteriyor, insanların Almanya’daki hayatlarını güvenli ve sağlam temeller üzerine kurmalarına destek oluyorum.
-            Almanya’da doğdum ve eğitimimi Almanya’da tamamladım. Almanca ve Sosyal Bilgiler öğretmeni, ekonomi hukuku uzmanı ve vergi konularında uzmanım. Bu çok yönlü eğitim ve tecrübe, hukuki, ekonomik ve toplumsal süreçleri birlikte değerlendirebilmemi sağlıyor. Danışmanlık çalışmalarımda sadece tek bir alana değil, bütün sürece bütüncül bir bakış açısıyla yaklaşırım.
-            Aynı zamanda Kronach Halk Eğitim Merkezi’nin bir bölgesi için dış temsilcilik sorumlusu olarak eğitim alanında da aktif görev yapıyorum. Dil eğitimi ve entegrasyon konularında yürüttüğüm çalışmalarla insanların yeni bir ülkede kendilerine sağlam bir gelecek kurmalarına katkı sağlamayı hedefliyorum.
-            Kurucusu olduğum NiBa-Lernstudio bünyesinde Almanca dersleri, entegrasyon kursları ve çocuklar için destekleyici eğitim programları veriyorum. Benim için eğitim, insanların toplum içinde güçlü bir şekilde yer alabilmelerinin en önemli anahtarıdır.
-            Bunun yanında girişimcilik danışmanlığı da yapıyorum. Almanya’da şirket kurmak isteyen girişimcilere, işlerini doğru ve sağlam bir şekilde kurabilmeleri için gerekli idari ve organizasyonel süreçlerde rehberlik ediyorum.
-            NiBa-ViSa ve NiBa Verwaltungsdienste aracılığıyla ise insanlara vize işlemleri, oturum izinleri ve Almanya’daki resmi süreçler konusunda profesyonel destek sunuyorum. Dosyaları değerlendirirken hem danışanın hem de resmi makamların bakış açısını dikkate alırım. Bu yaklaşım, gerçekçi ve sürdürülebilir çözümler üretmemi sağlar.
-            Ben hiçbir zaman gerçekleşmesi mümkün olmayan vaatlerde bulunmam. Her dosyayı dikkatle analiz eder, hukuki imkanları değerlendirir ve danışanlarıma açık, dürüst ve gerçekçi bir yol haritası sunarım.
-            Amacım; insanlara doğru yönü göstermek, fırsatları görünür kılmak ve onların Almanya’da güvenli bir gelecek kurmalarına katkı sağlamaktır
-            </p>
-                    
+            <div className="whois-container">
+
+              <div className="whois-card">
+                <p>
+                ▶ Ben Lütfiye Bakac. NiBa-ViSa, NiBa Verwaltungsdienste ve NiBa-Lernstudio’nun kurucusuyum. 2009 yılından bu yana Almanya’da eğitim, danışmanlık ve idari süreçler alanında faaliyet gösteriyor, insanların Almanya’daki hayatlarını güvenli ve sağlam temeller üzerine kurmalarına destek oluyorum.
+                </p>
+              </div>
+
+              <div className="whois-card">
+                <p>
+                ▶ Almanya’da doğdum ve eğitimimi Almanya’da tamamladım. Almanca ve Sosyal Bilgiler öğretmeni, ekonomi hukuku uzmanı ve vergi konularında uzmanım. Bu çok yönlü eğitim ve tecrübe, hukuki, ekonomik ve toplumsal süreçleri birlikte değerlendirebilmemi sağlıyor.
+                </p>
+              </div>
+
+              <div className="whois-card">
+                <p>
+                ▶ Danışmanlık çalışmalarımda sadece tek bir alana değil, bütün sürece bütüncül bir bakış açısıyla yaklaşırım. Aynı zamanda Kronach Halk Eğitim Merkezi’nin bir bölgesi için dış temsilcilik sorumlusu olarak eğitim alanında da aktif görev yapıyorum. Dil eğitimi ve entegrasyon konularında yürüttüğüm çalışmalarla insanların yeni bir ülkede kendilerine sağlam bir gelecek kurmalarına katkı sağlamayı hedefliyorum. Kurucusu olduğum NiBa-Lernstudio bünyesinde Almanca dersleri, entegrasyon kursları ve çocuklar için destekleyici eğitim programları veriyorum. Benim için eğitim, insanların toplum içinde güçlü bir şekilde yer alabilmelerinin en önemli anahtarıdır.
+                </p>
+              </div>
+
+              <div className="whois-card">
+                <p>
+                ▶ Bunun yanında girişimcilik danışmanlığı da yapıyorum. Almanya’da şirket kurmak isteyen girişimcilere, işlerini doğru ve sağlam bir şekilde kurabilmeleri için gerekli idari ve organizasyonel süreçlerde rehberlik ediyorum.
+                </p>
+              </div>
+
+              <div className="whois-card">
+                <p>
+                ▶ NiBa-ViSa ve NiBa Verwaltungsdienste aracılığıyla ise insanlara vize işlemleri, oturum izinleri ve Almanya’daki resmi süreçler konusunda profesyonel destek sunuyorum. Dosyaları değerlendirirken hem danışanın hem de resmi makamların bakış açısını dikkate alırım.
+                </p>
+              </div>
+
+              <div className="whois-card">
+                <p>
+                ▶ Bu yaklaşım, gerçekçi ve sürdürülebilir çözümler üretmemi sağlar. Ben hiçbir zaman gerçekleşmesi mümkün olmayan vaatlerde bulunmam. Her dosyayı dikkatle analiz eder, hukuki imkanları değerlendirir ve danışanlarıma açık, dürüst ve gerçekçi bir yol haritası sunarım. Amacım; insanlara doğru yönü göstermek, fırsatları görünür kılmak ve onların Almanya’da güvenli bir gelecek kurmalarına katkı sağlamaktır.
+                </p>
+              </div>
+
+            </div>
           </div>
           </div>
     </div>
