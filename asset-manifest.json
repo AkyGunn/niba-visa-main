@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/niba-visa-main/static/css/main.6e9be5c8.css",
-    "main.js": "/niba-visa-main/static/js/main.71a605ae.js",
+    "main.js": "/niba-visa-main/static/js/main.a619318e.js",
     "static/js/453.e89f1881.chunk.js": "/niba-visa-main/static/js/453.e89f1881.chunk.js",
     "static/media/profile-photo.png": "/niba-visa-main/static/media/profile-photo.7361c104f04abb15c595.png",
     "static/media/whatsapp-logo.png": "/niba-visa-main/static/media/whatsapp-logo.b5305e92e4f6f1e4b0cb.png",
     "index.html": "/niba-visa-main/index.html",
     "main.6e9be5c8.css.map": "/niba-visa-main/static/css/main.6e9be5c8.css.map",
-    "main.71a605ae.js.map": "/niba-visa-main/static/js/main.71a605ae.js.map",
+    "main.a619318e.js.map": "/niba-visa-main/static/js/main.a619318e.js.map",
     "453.e89f1881.chunk.js.map": "/niba-visa-main/static/js/453.e89f1881.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6e9be5c8.css",
-    "static/js/main.71a605ae.js"
+    "static/js/main.a619318e.js"
   ]
 }
