@@ -16,3 +16,9 @@
   font-size: 3rem;
   font-family: 'Outfit', sans-serif;
 }
+
+@media (max-width: 665px) {
+  .hero-text h3 {
+    transform: scale(0.8);
+  }
+}

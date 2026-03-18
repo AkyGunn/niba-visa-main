@@ -1,0 +1,21 @@
+.politics-container {
+    background-color: rgb(41, 36, 36);
+    color: white;
+    overflow: hidden;
+
+}
+
+.politics-container h4 {
+    margin: 10px;
+    text-align: left;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.politics-container p {
+    margin: 10px;
+    font-size: 0.8rem;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0 5px;
+}

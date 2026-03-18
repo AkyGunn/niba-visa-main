@@ -31,7 +31,7 @@ const Hero = () => {
   options={{
     preset: 'links',
     fullScreen: { enable: false },
-    background: { color: '#3e3c44' },
+    background: { color: '#37363a' },
     particles: {
       links: {
         color: ['#ff5e5e', '#ffaa00', '#34c759', '#0a84ff', '#af52de'], // çizgi renkleri
@@ -60,6 +60,8 @@ const Hero = () => {
         <h3 ref={textRef}></h3>
       </div>
     </div>
+
+
   );
 };
 

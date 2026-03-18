@@ -1,7 +1,6 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import './services.css'
 import Title from '../title/title.jsx'
-import { useEffect } from 'react';
 import Description1 from './service-descriptions/description1.jsx'
 import Description2 from './service-descriptions/description2.jsx'
 import Description3 from './service-descriptions/description3.jsx'
@@ -35,15 +34,28 @@ const Services = () => {
     description10: <Description10 />,
   };
 
-  // State'i bir key olarak tut
+  const isFirstRender = useRef(true);
+
+  // State'i bir key olarak tut 
   const [selectedDescription, setSelectedDescription] = React.useState("description1");
+
+  // Ref to the description area so we can scroll to it
+  const descriptionRef = useRef(null);
 
   const handleClick = (key) => {
     setSelectedDescription(key);
+    isFirstRender.current = false; 
   };
 
+  // Scroll to description area when selection changes
+  useEffect(() => {
+    if (descriptionRef.current && !isFirstRender.current) {
+      descriptionRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }, [selectedDescription]);
+
   return (
-    <div>
+    <div id='services-container'>
       <Title text="Hizmetlerimiz" />
       <div className="services-container">
         <div className="services-list">
@@ -71,7 +83,7 @@ const Services = () => {
   ))}
 </ul>
         </div>
-        <div className="services-description">
+        <div className="services-description" id="services-description" ref={descriptionRef}>
           {/* Seçilen bileşeni göster */}
           {components[selectedDescription]}
         </div>

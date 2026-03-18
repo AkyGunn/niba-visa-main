@@ -106,7 +106,7 @@ const Medical = () => {
   ]
 
   return (
-    <div className="medical-container">
+    <div id='medical-container' className="medical-container">
       <Title text="Sağlık Personelleri" size="l"/>
       <div className="department-inputs">
         {/* Select kutuları */}

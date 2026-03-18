@@ -39,3 +39,27 @@
 .services-list li.active {
     border: #fff 2px solid;
 }
+
+@media (max-width: 1101px) {
+     .services-container {
+        display: flex;
+        flex-direction: column; /* Mobilde dikey hizala */
+        align-items: center; /* Ortala */
+    }
+
+    .services-list {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+    }
+
+    .services-list ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;         
+        gap: 1em;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+}

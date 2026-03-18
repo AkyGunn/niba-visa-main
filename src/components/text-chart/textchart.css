@@ -26,3 +26,9 @@ h2 {
 .text-chart:hover {
     scale: 1.005;
 }
+
+@media (max-width: 758px) {
+    .text-chart {
+        width: 80%;
+    }
+}

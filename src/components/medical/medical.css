@@ -21,3 +21,48 @@
 .medical-container {
     padding: 0 100px;    
 }
+
+@media (max-width: 1101px) {   
+    .medical-container {
+        align-items: center; /* Ortala */
+    }
+    .department-inputs {height: unset};
+}
+
+@media (max-width: 865px) {
+  .department-inputs {
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+  .department-inputs select {
+    width: 48%;
+    min-width: 200px;
+    min-height: 50px;
+  }
+
+
+}
+
+@media (max-width: 656px) {
+    .department-inputs {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: unset;
+        height: max-content;
+        align-items: center;
+    }
+
+    .medical-container {
+        height: max-content;
+    }
+    .selected-description {
+    width: 80%;
+  }
+  .medical-container {
+    padding: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
