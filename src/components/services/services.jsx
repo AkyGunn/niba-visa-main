@@ -11,6 +11,7 @@ import Description7 from './service-descriptions/description7.jsx'
 import Description8 from './service-descriptions/description8.jsx'
 import Description9 from './service-descriptions/description9.jsx'
 import Description10 from './service-descriptions/description10.jsx'
+import Description11 from './service-descriptions/description11.jsx'
 
 const Services = () => {
 
@@ -32,6 +33,7 @@ const Services = () => {
     description8: <Description8 />,
     description9: <Description9 />,
     description10: <Description10 />,
+    description11: <Description11 />
   };
 
   const isFirstRender = useRef(true);
@@ -71,6 +73,7 @@ const Services = () => {
     "Almanya'da Üniversite",
     "Almanya'da Dil Okulu",
     "Erasmus Projeleri",
+    "Resmi Tercümanlık"
   ].map((text, index) => (
     <li
       key={index}

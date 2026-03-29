@@ -5,6 +5,7 @@ import './hero.css';
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { TextPlugin } from 'gsap/TextPlugin';
+import german_flag from '../../assets/german-flag.png'
 
 
 gsap.registerPlugin(TextPlugin);
@@ -58,6 +59,8 @@ const Hero = () => {
 
       <div className="hero-text">
         <h3 ref={textRef}></h3>
+        
+        <img src={german_flag} alt="German Flag" />
       </div>
     </div>
 

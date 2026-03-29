@@ -20,6 +20,7 @@ const Navbar = () => {
           </span>
         ))}
         <p className="logo-text" onClick={() => window.open('https://maps.google.com/?q=Klosterstr.+12,+95028+Hof')} >Klosterstr. 12 95028 Hof</p>
+        <p className="logo-text">+491724062056 | nibavisahof@gmail.com</p>
       </div>
 
       {/* Hamburger icon */}

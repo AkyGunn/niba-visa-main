@@ -2,12 +2,7 @@
     position: fixed;
     top: 50%;
     right: 10px;
-    background: rgb(255, 255, 255);
-    border-radius: 50px;
-    display: flex;
-    justify-content: center;
-    padding: 4px;
-    cursor: pointer;
+    display: grid;
 }
 
 .contact-container img {
@@ -17,3 +12,16 @@
 .contact-container p {
     font-family: 'Outfit' , sans-serif;
 }
+
+.contact {
+    margin: 10px 0;
+    right: 10px;
+    background: rgb(255, 255, 255);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+    cursor: pointer;
+    justify-content: space-evenly;
+}
+
