@@ -3,6 +3,7 @@
     top: 50%;
     right: 10px;
     display: grid;
+    z-index: 1000;
 }
 
 .contact-container img {

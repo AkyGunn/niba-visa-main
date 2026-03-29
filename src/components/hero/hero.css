@@ -1,49 +1,56 @@
 .hero {
   position: relative;
   height: 70vh;
-  background-color: white; 
   overflow: hidden;
 }
 
+/* particles arka plan */
+.hero canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* içerik */
 .hero-text {
   position: relative;
   z-index: 1;
+
   height: 100%;
-  display: grid;
-  justify-content: center;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* dikey ortala */
+  align-items: center;     /* yatay ortala */
+
+  gap: 25px; /* yazı ile img arası boşluk */
+
   color: white;
   font-size: 3rem;
   font-family: 'Outfit', sans-serif;
+  text-align: center;
 }
 
 .hero-text h3 {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
+  margin: 0;
+  max-width: 800px;
 }
 
 .hero-text img {
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
   width: 80px;
-  border-radius: 50%;
   height: 80px;
+  border-radius: 50%;
   border: 3px solid #fff;
 }
 
+/* 🔹 Responsive */
 @media (max-width: 665px) {
-  .hero-text h3 {
-    transform: scale(0.8);
-    left: unset;
-    top: 10%;
+  .hero-text {
+    font-size: 2rem;
+    gap: 15px;
+    padding: 0 10px;
   }
 
   .hero-text img {
-    top: 80%;
     width: 60px;
     height: 60px;
   }
